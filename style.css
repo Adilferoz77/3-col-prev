@@ -1,0 +1,111 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 95%);
+}
+body, button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+h3{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 25px;
+    
+}
+.cont{
+    padding: 20px;
+}
+.card{
+    padding: 30px;
+}
+.card img{
+    margin-bottom: 15px;
+}
+.card h3{
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.card p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 10px 10px 0 0 ;
+}
+.orange button{
+    color: hsl(31, 77%, 52%);
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.cyan button{
+    color: hsl(184, 100%, 22%);
+}
+.dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+    color : white;
+    border-radius: 0 0 10px 10px;
+}
+.dark-cyan button{
+    color:  hsl(179, 100%, 13%);
+}
+.card button{
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border-style: none;
+    border: solid transparent 1px;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: solid white 1px;
+    transition: 0.3s;
+}
+
+@media (min-width: 1112px){
+    .cont{
+        width: 1000px;
+        display: flex;
+        margin: auto;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .card{
+        height: 420px;
+        padding: 50px;
+        line-height: 25.5px;
+    }
+    .card img{
+        margin-bottom: 35px;
+    }
+    .card h3{
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+    .card button{
+        padding: 10px 30px 10px 30px;
+    }
+    .card p{
+        margin-bottom: 90px;
+    }
+    .orange{
+        border-radius: 10px 0 0 10px;
+    }
+    .dark-cyan{
+        border-radius: 0 10px 10px 0;
+    }
+    
+}
